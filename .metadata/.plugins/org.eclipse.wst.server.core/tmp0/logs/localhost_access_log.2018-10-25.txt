@@ -1,0 +1,8 @@
+127.0.0.1 - - [25/Oct/2018:10:01:51 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Oct/2018:10:01:53 +0530] "GET /FirstWebProject/Employee.html HTTP/1.1" 200 777
+0:0:0:0:0:0:0:1 - - [25/Oct/2018:10:02:11 +0530] "GET /FirstWebProject/EmployeeServlet?eid=1267&ename=Ishanya&age=23&salary=50000 HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [25/Oct/2018:10:11:01 +0530] "GET /FirstWebProject/WEB-INF/classes/com/dao/databaseFunction.java HTTP/1.1" 404 1047
+127.0.0.1 - - [25/Oct/2018:10:11:52 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Oct/2018:10:11:54 +0530] "GET /FirstWebProject/WEB-INF/classes/com/dao/databaseFunction.java HTTP/1.1" 404 1047
+127.0.0.1 - - [25/Oct/2018:10:49:31 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Oct/2018:10:49:32 +0530] "GET /FirstWebProject/ HTTP/1.1" 404 1094

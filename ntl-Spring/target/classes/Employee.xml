@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "
+   http://www.springframework.org/schema/beans     
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context 
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+-->
+
+ <beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+   <context:annotation-config/>
+ 
+
+ <!--   <bean id="emp1" class="com.ntl.model.Employee" autowire="byName">
+   <property name="empId" value="12345"></property>
+   <property name="empName" value="Ishanya"></property>
+   <property name="salary" value="75000"></property>
+   <property name="proj" ref="p1"></property> 
+   </bean>-->
+   
+   <bean class="com.ntl.model.InitHelloWorld"></bean>
+   
+   <bean id="p1" class="com.ntl.model.Project">
+   <property name="projId" value="678"></property>
+   <property name="projName" value="techleap"></property>
+   </bean>
+   
+<bean id="pro1" class="com.ntl.model.Project">
+   <property name="projId" value="679"></property>
+   <property name="projName" value="techleapp"></property>
+   </bean>
+   
+   
+   
+     
+   <bean id="empLarge" class="com.ntl.model.Employee"  scope="singleton">
+   <constructor-arg type="int" value="12346"></constructor-arg>
+   <constructor-arg value="Govind"></constructor-arg>
+   <constructor-arg type="double" value="78000"></constructor-arg>
+   <!-- <constructor-arg ref="p1"></constructor-arg>-->
+   </bean>
+   
+   </beans>

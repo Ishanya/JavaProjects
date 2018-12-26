@@ -1,0 +1,9 @@
+127.0.0.1 - - [26/Oct/2018:11:00:14 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Oct/2018:11:00:16 +0530] "GET /FirstWebProject/WEB-INF/classes/com/bean/Employee.java HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [26/Oct/2018:11:01:57 +0530] "GET /FirstWebProject/EmployeeServlet HTTP/1.1" 500 1615
+0:0:0:0:0:0:0:1 - - [26/Oct/2018:11:06:49 +0530] "GET /FirstWebProject/Employee.html HTTP/1.1" 200 777
+0:0:0:0:0:0:0:1 - - [26/Oct/2018:11:07:05 +0530] "GET /FirstWebProject/EmployeeServlet?eid=7878&ename=yfjy&age=7867&salary=8768 HTTP/1.1" 200 18
+127.0.0.1 - - [26/Oct/2018:11:20:08 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Oct/2018:11:20:12 +0530] "GET /FirstWebProject/Employee.html HTTP/1.1" 200 1534
+0:0:0:0:0:0:0:1 - - [26/Oct/2018:11:20:13 +0530] "GET /FirstWebProject/Employee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Oct/2018:11:20:45 +0530] "GET /FirstWebProject/EmployeeServlet?eid=Bh3111&ename=Bhuvan&age=54&salary=60000&submit=submit HTTP/1.1" 200 18

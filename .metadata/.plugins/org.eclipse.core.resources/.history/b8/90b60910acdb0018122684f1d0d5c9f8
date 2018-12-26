@@ -1,0 +1,12 @@
+package com.ntl.SRS.SRSproject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SrSprojectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SrSprojectApplication.class, args);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Hello.java&apos; to &apos;DockerHelloWorld/src/main/java/Docker.DockerHelloWorld&apos;&#x0D;&#x0A;- Original project: &apos;Docker&apos;&#x0D;&#x0A;- Destination element: &apos;DockerHelloWorld/src/main/java/Docker.DockerHelloWorld&apos;&#x0D;&#x0A;- Original element: &apos;Hello.java&apos;" description="Copy compilation unit" destination="=DockerHelloWorld/src\/main\/java&lt;Docker.DockerHelloWorld" element1="/src&lt;{Hello.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1542617555212" units="1" version="1.0"/>
+</session>

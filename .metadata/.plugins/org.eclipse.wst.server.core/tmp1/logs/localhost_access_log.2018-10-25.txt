@@ -1,0 +1,2 @@
+127.0.0.1 - - [25/Oct/2018:10:43:45 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Oct/2018:10:43:47 +0530] "GET /FirstWebProject/WEB-INF/classes/com/dao/databaseFunction.java HTTP/1.1" 404 1047

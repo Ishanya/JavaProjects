@@ -1,0 +1,13 @@
+
+Tsquid:S2789."(Remove this null-check of an "Optional".(°Ğè¼úÿÿÿÿHìÎRMAJORZBUG
+k
+squid:S106U"9Replace this use of System.out or System.err by a logger.(È…­ßÿÿÿÿÿHíÎRMAJORZ
+CODE_SMELL
+tsquid:S4684?"@Replace this persistent entity with a simple POJO or DTO object.(ƒ¥òHîÎRCRITICALZVULNERABILITY
+ysquid:S4684R"@Replace this persistent entity with a simple POJO or DTO object.(¾Óø¿úÿÿÿÿHïÎRCRITICALZVULNERABILITY
+jsquid:S18548"7Remove this useless assignment to local variable "cus".(ßéåúÿÿÿÿHğÎRMAJORZ
+CODE_SMELL
+‰squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãò¯üHñÎRMINORZ
+CODE_SMELL
+‚squid:UselessImportCheck"GRemove this unused import 'org.springframework.web.util.UriComponents'.(Ó‡¬¯HòÎRMINORZ
+CODE_SMELL

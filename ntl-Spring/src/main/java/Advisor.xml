@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" 
+   xmlns:context = "http://www.springframework.org/schema/context"
+   xmlns:aop = "http://www.springframework.org/schema/aop"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+   http://www.springframework.org/schema/aop 
+   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+
+
+  
+  
+       <aop:aspectj-autoproxy/>
+       
+   <bean id = "myAspect" class = "com.ntl.service.Advisor">
+  
+  
+  
+</bean>
+  <!--  
+ <bean id="empy" class="com.ntl.model.Employee" >
+   <constructor-arg type="int" value="12346"></constructor-arg>
+   <constructor-arg value="Govind"></constructor-arg>
+   <constructor-arg type="double" value="78000"></constructor-arg>
+  
+   </bean>
+ -->
+ 
+ <bean id = "empy" class = "com.ntl.model.Employee" >
+   <property name="empId" value="987"></property>
+      <property name = "empName" value = "Zara" />
+      <property name = "salary"  value = "1100000"/>      
+   </bean>
+
+
+<bean id="pro1" class="com.ntl.model.Project">
+   <property name="projId" value="679"></property>
+   <property name="projName" value="techleapp"></property>
+   </bean>
+
+  <bean id="p1" class="com.ntl.model.Project">
+   <property name="projId" value="678"></property>
+   <property name="projName" value="techleap"></property>
+   </bean>
+      
+   
+</beans>

@@ -1,0 +1,59 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.form-group{
+  width:50%;
+
+}
+
+
+</style>
+</head>
+<body>
+
+<center>
+
+<form method="get" action="EmployeeServlet" >
+
+<fieldset><legend>
+Employee Form
+</legend>
+<div class="form-group">
+      <label for="empid">EmployeeId:</label>
+      <input type="text" class="form-control" id="eid" placeholder="Enter Id" name="eid">
+    </div>
+<br>
+ 
+<div class="form-group">
+      <label for="empname">Name:</label>
+      <input type="text" class="form-control" id="ename" placeholder="Enter Name" name="ename">
+    </div>
+<br>
+<div class="form-group">
+      <label for="EmpAge">Employee Age:</label>
+      <input type="number" class="form-control" id="eage" placeholder="Enter age" name="age">
+    </div>
+<br>
+<div class="form-group">
+      <label for="salary">Employee Salary:</label>
+      <input type="number" class="form-control" id="esalary" placeholder="Enter Salary" name="salary">
+    </div>
+<br>
+
+<input type="submit"  name="submit"    class="btn btn-primary" value="submit">
+</fieldset>
+
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,59 @@
+package com.ntl.SRS.SRSproject;
+
+
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+import java.util.Scanner;
+import java.util.TreeMap;
+
+import java.util.Scanner;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ntl.SRS.SRSproject.bean.CredentialsBean;
+import com.ntl.SRS.SRSproject.bean.ProfileBean;
+
+import com.ntl.SRS.SRSproject.utilImpl.LoggedIn;
+
+import com.ntl.SRS.SRSproject.utilImpl.SignedUp;
+
+import com.ntl.SRS.SRSproject.SrSprojectApplication;
+import com.ntl.SRS.SRSproject.Client.Shiping;
+import com.ntl.SRS.SRSproject.SrSprojectApplication;
+
+@SpringBootApplication
+public class SrSprojectApplication {
+
+	static String reserveId;
+	static Scanner sc=new Scanner(System.in);
+	LoggedIn log=new LoggedIn();
+	static double tfare=0.0;
+	CredentialsBean sign=new CredentialsBean();
+	ProfileBean profile=new ProfileBean();
+	SignedUp signup=new SignedUp();
+
+	static CredentialsBean credit=null;
+
+	
+	public static void main(String[] args) throws ClassNotFoundException, IOException, SQLException {
+		SpringApplication.run(SrSprojectApplication.class, args);
+		System.out.println("hello");
+		boolean val=true;
+		while(val) {
+		Shiping userid=new Shiping();
+		val=userid.getData();
+		}
+	}
+	
+	
+	
+}
